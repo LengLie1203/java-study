@@ -1,6 +1,6 @@
 package com.lqw.onjava8;
 
-public class Number {
+public class Num {
 
 
     public static void main(String[] args) {
