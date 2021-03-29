@@ -1,7 +1,6 @@
 package com.lqw.lambda;
 
 
-import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class Func {
