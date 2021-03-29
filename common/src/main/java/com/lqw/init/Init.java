@@ -1,6 +1,6 @@
 package com.lqw.init;
 
-public class Init {
+public class Init extends InitP{
 
     static {
         System.out.println("init1");
@@ -23,6 +23,11 @@ public class Init {
         Init init;
         System.out.println("just reference");
         Init init1 = new Init();
+        System.out.println("init  new");
         init1.to();
+        Init init2;
+        System.out.println("init not new");
+        init2=new Init();
     }
 }
+
