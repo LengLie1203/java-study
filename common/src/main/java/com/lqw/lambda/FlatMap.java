@@ -44,6 +44,12 @@ public class FlatMap {
         Stream.of("").collect((Supplier<ArrayList>) ArrayList::new ,(list,i)->list.add(i),
                 (left, right) -> left.addAll(right));
 
+
+
+        Stream.of(Lists.newArrayList(1,2,3),Lists.newArrayList(4,5,6))
+                .flatMap(Collection::stream).collect(Collectors.toList());
+
+
     }
 
     public static String[] ff(int i){
