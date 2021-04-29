@@ -1,9 +1,7 @@
 package com.lqw.generic;
 
 
-import com.github.javafaker.App;
 import com.google.common.collect.Lists;
-import com.sun.tools.corba.se.idl.constExpr.Or;
 
 import java.util.ArrayList;
 import java.util.Collection;

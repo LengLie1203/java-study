@@ -1,12 +1,12 @@
 package com.lqw.start;
 
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class StartApplicationTests {
 
-    @Test
+//    @Test
     void contextLoads() {
     }
 

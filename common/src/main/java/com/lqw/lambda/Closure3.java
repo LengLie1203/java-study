@@ -1,15 +1,15 @@
 package com.lqw.lambda;
 
-import com.lqw.Test;
 
 import java.util.function.IntSupplier;
 
 public class Closure3 {
+    public static  int INT=0;
     private int j;
     IntSupplier makeFun(int x) {
         int i = 0;
         // x++ 和 i++ 都会报错：
-        return () -> x + j++ + i + Test.INT;
+        return () -> x + j++ + i + INT;
     }
 
     IntSupplier makeFun2(int x) {
