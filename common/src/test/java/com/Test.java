@@ -9,11 +9,21 @@ import java.util.Scanner;
 public class Test {
 
     public static void main(String[] args) throws InterruptedException {
-
-        long i=0;
-        while (true){
-            Thread.sleep(11);
-            System.out.println("F");
+        String str=null;
+        try{
+            System.out.println("step 1");
+            System.out.println(str.length());
+            System.out.println("step 2");
+        }catch (Exception e){
+            System.out.println("step 3");
+//           int f= 1/0;
+            System.out.println("step 4");
+        }finally {
+            System.out.println("step 5");
         }
+
+        String num="8";
+        int n=num.charAt(0);
+        System.out.println(n-48);
     }
 }
