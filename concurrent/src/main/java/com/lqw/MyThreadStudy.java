@@ -17,8 +17,6 @@ public class MyThreadStudy {
 
     public static void main(String[] args) {
 
-
-//        new MyThreadStudy().holdLock();
         Obj obj = new Obj("obj");
         Obj obj1 =new Obj("obj1");
 
