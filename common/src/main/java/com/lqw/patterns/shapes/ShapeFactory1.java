@@ -11,8 +11,8 @@ public class ShapeFactory1 implements FactoryMethod {
                 return new Circle();
             case "Square":
                 return new Square();
-            case "Triangle":
-                return new Triangle();
+//            case "Triangle":
+//                return new Triangle();
             default:
                 throw new BadShapeCreation(type);
         }
