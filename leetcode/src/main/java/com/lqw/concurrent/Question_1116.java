@@ -5,6 +5,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.function.IntConsumer;
 
+/**
+ * 打印零与奇偶数
+ */
 public class Question_1116 {
     private int n;
 
