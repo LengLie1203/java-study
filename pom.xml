@@ -13,6 +13,7 @@
     <module>common</module>
     <module>start</module>
     <module>concurrent</module>
+      <module>leetcode</module>
   </modules>
 
   <name>java-study</name>
