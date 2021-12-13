@@ -51,6 +51,10 @@
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
     </dependency>
+      <dependency>
+          <groupId>org.ansj</groupId>
+          <artifactId>ansj_seg</artifactId>
+      </dependency>
   </dependencies>
 
 </project>
