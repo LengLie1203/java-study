@@ -46,7 +46,7 @@ public class SimHash {
         this.intSimHash =this.simHash();
     }
 
-    public SimHash(String[] tokenArrays, int[] weights, int hashbits,Boolean chineseFlag) {
+    public SimHash(String[] tokenArrays, int[] weights, int hashbits, Boolean chineseFlag) {
         this.tokenArrays = tokenArrays;
         this.weights = weights;
         this.hashbits = hashbits;
@@ -257,7 +257,7 @@ commonTest();
         String s = "This is a test string for testing";
 
         SimHash hash1 = new SimHash(s, 64);
-        System.out.println(hash1.strSimHash + "  " + hash1.intSimHash.bitCount());
+        System.out.println(hash1.strSimHash + "  " + hash1.intSimHash.bitLength());
 
         hash1.subByDistance( 3);
 
